@@ -144,15 +144,15 @@ Football-Player-Performance-Analytics/
 
 Add your dashboard screenshot to the **Images** folder and name it:
 
-```text
-dashboard.png
-```
+<img width="1920" height="1080" alt="Screenshot 2026-06-26 195814" src="https://github.com/user-attachments/assets/86cdea1b-aa76-4707-9efd-7f3a2a09892b" />
+
 
 Then GitHub will automatically display it using:
 
 ```markdown
 ![Power BI Dashboard](Images/dashboard.png)
 ```
+<img width="1920" height="1080" alt="Screenshot 2026-06-26 195808" src="https://github.com/user-attachments/assets/9ac0d07a-772f-475c-9177-4da4ca6e181e" />
 
 ---
 
