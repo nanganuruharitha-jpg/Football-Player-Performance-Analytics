@@ -1,0 +1,11 @@
+PositionID,PositionName,PositionGroup
+1,ST,Forward
+2,LW,Forward
+3,RW,Forward
+4,CAM,Midfielder
+5,CM,Midfielder
+6,CDM,Midfielder
+7,LB,Defender
+8,RB,Defender
+9,CB,Defender
+10,GK,Goalkeeper
