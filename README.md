@@ -2,13 +2,13 @@
 Football Player Performance Analytics using SQL, Python, Machine Learning, and Power BI.
 # Football Player Performance Analytics
 
-## 📌 Project Overview
+## Project Overview
 
 The **Football Player Performance Analytics** project analyzes football player statistics using **SQL, Python, Machine Learning, and Power BI**. The project focuses on cleaning and transforming player data, identifying top-performing players, predicting player market values using a **Linear Regression** model, and presenting insights through an interactive Power BI dashboard.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 * Analyze football player performance using statistical data.
 * Clean and preprocess the dataset using SQL and Python.
@@ -18,7 +18,7 @@ The **Football Player Performance Analytics** project analyzes football player s
 
 ---
 
-## 📊 Dataset Information
+##  Dataset Information
 
 The dataset contains football player statistics, including:
 
