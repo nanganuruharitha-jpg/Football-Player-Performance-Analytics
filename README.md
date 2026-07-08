@@ -191,13 +191,16 @@ These players represent potential transfer opportunities for ZDIP United.
 - Transfer Market Opportunities
 ## Dashboard Preview
 
-![Overview Dashboard](<img width="1920" height="1080" alt="Screenshot 2026-07-08 165709" src="https://github.com/user-attachments/assets/94974fda-e09b-46f1-9b36-d18870375c1d" />
+![Overview Dashboard]
+(<img width="1920" height="1080" alt="Screenshot 2026-07-08 165709" src="https://github.com/user-attachments/assets/94974fda-e09b-46f1-9b36-d18870375c1d" />
 )
 
-![Player Analysis Dashboard](<img width="1920" height="1080" alt="Screenshot 2026-07-08 165717" src="https://github.com/user-attachments/assets/e3f16f61-678e-4c59-892a-e52a8c12c69d" />
+![Player Analysis Dashboard]
+(<img width="1920" height="1080" alt="Screenshot 2026-07-08 165717" src="https://github.com/user-attachments/assets/e3f16f61-678e-4c59-892a-e52a8c12c69d" />
 )
 
-![AI Value Predictor Dashboard](<img width="1920" height="1080" alt="Screenshot 2026-07-08 165724" src="https://github.com/user-attachments/assets/d4668acc-84a9-4ddb-8038-2a3cb37e4a31" />
+![AI Value Predictor Dashboard]
+(<img width="1920" height="1080" alt="Screenshot 2026-07-08 165724" src="https://github.com/user-attachments/assets/d4668acc-84a9-4ddb-8038-2a3cb37e4a31" />
 )
 
 ---
