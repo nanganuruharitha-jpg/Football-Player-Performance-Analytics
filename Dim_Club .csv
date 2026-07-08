@@ -1,0 +1,97 @@
+ClubID,ClubName,LeagueID,Country
+1,South AFC,1,England
+2,FC United FC,1,England
+3,Dynamo Rangers,1,England
+4,South FC,1,England
+5,Royal Wanderers,1,England
+6,Inter Saints,1,England
+7,AC AFC,1,England
+8,Inter Wanderers,1,England
+9,Red Star United FC,1,England
+10,Inter City FC,1,England
+11,West Villans,1,England
+12,Borussia CF,1,England
+13,Dynamo Rangers,2,Spain
+14,Inter United FC,2,Spain
+15,Olympic Albion,2,Spain
+16,South SC,2,Spain
+17,Union Rovers,2,Spain
+18,Union Rangers,2,Spain
+19,United CF,2,Spain
+20,West AFC,2,Spain
+21,AC City FC,2,Spain
+22,South Saints,2,Spain
+23,Dynamo Villans,2,Spain
+24,FC AFC,2,Spain
+25,Borussia Hotspur,3,Italy
+26,Real Athletic Club,3,Italy
+27,Olympic Rovers,3,Italy
+28,Inter Hotspur,3,Italy
+29,AC FC,3,Italy
+30,City AFC,3,Italy
+31,Real Saints,3,Italy
+32,Dynamo Town,3,Italy
+33,City City FC,3,Italy
+34,South Athletic Club,3,Italy
+35,Olympic Wanderers,3,Italy
+36,FC Athletic Club,3,Italy
+37,Athletic Albion,4,Germany
+38,Sporting FC,4,Germany
+39,City United FC,4,Germany
+40,West Rangers,4,Germany
+41,Deportivo FC,4,Germany
+42,South Town,4,Germany
+43,Borussia Rangers,4,Germany
+44,Dynamo Rangers,4,Germany
+45,Red Star City FC,4,Germany
+46,Union Town,4,Germany
+47,Royal FC,4,Germany
+48,Deportivo Hotspur,4,Germany
+49,Red Star Hotspur,5,France
+50,Red Star Rovers,5,France
+51,Borussia AFC,5,France
+52,Borussia CF,5,France
+53,Olympic FC,5,France
+54,United AFC,5,France
+55,Sporting United FC,5,France
+56,Inter SC,5,France
+57,North Hotspur,5,France
+58,Royal Wanderers,5,France
+59,Dynamo FC,5,France
+60,FC Athletic Club,5,France
+61,Union SC,6,Netherlands
+62,South AFC,6,Netherlands
+63,Sporting CF,6,Netherlands
+64,Sporting SC,6,Netherlands
+65,South SC,6,Netherlands
+66,Borussia Town,6,Netherlands
+67,Deportivo Rovers,6,Netherlands
+68,Athletic United FC,6,Netherlands
+69,County Albion,6,Netherlands
+70,United United FC,6,Netherlands
+71,County Rangers,6,Netherlands
+72,North Albion,6,Netherlands
+73,Red Star Rovers,7,Portugal
+74,Union Town,7,Portugal
+75,City Town,7,Portugal
+76,Dynamo CF,7,Portugal
+77,East SC,7,Portugal
+78,Inter AFC,7,Portugal
+79,County CF,7,Portugal
+80,Dynamo United FC,7,Portugal
+81,Dynamo Rangers,7,Portugal
+82,Athletic Hotspur,7,Portugal
+83,Athletic Rovers,7,Portugal
+84,East Wanderers,7,Portugal
+85,Borussia FC,8,Brazil
+86,FC United FC,8,Brazil
+87,AC Hotspur,8,Brazil
+88,City Athletic Club,8,Brazil
+89,City Hotspur,8,Brazil
+90,Olympic FC,8,Brazil
+91,Olympic United FC,8,Brazil
+92,West City FC,8,Brazil
+93,Royal Town,8,Brazil
+94,FC CF,8,Brazil
+95,Deportivo City FC,8,Brazil
+96,County Wanderers,8,Brazil
