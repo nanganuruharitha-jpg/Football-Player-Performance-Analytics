@@ -1,173 +1,267 @@
-# Football-Player-Performance-Analytics
-Football Player Performance Analytics using SQL, Python, Machine Learning, and Power BI.
-# Football Player Performance Analytics
+# ⚽ Football Player Value & Performance Optimization
 
-## Project Overview
+## 📌 Project Overview
 
-The **Football Player Performance Analytics** project analyzes football player statistics using **SQL, Python, Machine Learning, and Power BI**. The project focuses on cleaning and transforming player data, identifying top-performing players, predicting player market values using a **Linear Regression** model, and presenting insights through an interactive Power BI dashboard.
+This project develops a data-driven football scouting and player valuation platform for **ZDIP United**, a mid-tier European football club preparing for the summer transfer window.
 
----
-
-##  Objectives
-
-* Analyze football player performance using statistical data.
-* Clean and preprocess the dataset using SQL and Python.
-* Predict player market value using Machine Learning.
-* Create an interactive Power BI dashboard for visualization.
-* Identify top-performing players based on key performance metrics.
+The objective is to identify undervalued players ("Hidden Gems"), analyze player performance metrics, and predict player market values using Machine Learning techniques.
 
 ---
 
-##  Dataset Information
+## 🎯 Business Problem
 
-The dataset contains football player statistics, including:
+ZDIP United operates with a limited transfer budget and requires a data-driven recruitment strategy to identify high-performing players available below their expected market value.
 
-* Player ID
-* Player Name
-* Age
-* Team
-* League
-* Position
-* Goals
-* Assists
-* Minutes Played
-* Market Value
-* Match Performance Statistics
-
-The dataset was transformed into dimension and fact tables for analysis.
+Traditional scouting methods are expensive and subjective, so this project uses analytics to support transfer decision-making.
 
 ---
 
-## 🛠️ Technologies Used
+## 🎯 Project Objectives
 
-| Technology       | Purpose                                    |
-| ---------------- | ------------------------------------------ |
-| SQL Server       | Data storage, cleaning, and transformation |
-| Python           | Data preprocessing and Machine Learning    |
-| Jupyter Notebook | Model development and analysis             |
-| Pandas           | Data manipulation                          |
-| Scikit-learn     | Linear Regression model                    |
-| Power BI         | Interactive dashboard creation             |
-| GitHub           | Project version control and sharing        |
+- Identify undervalued players across European leagues.
+- Analyze player performance metrics and market value relationships.
+- Develop a player market value prediction model.
+- Build interactive Power BI dashboards for scouting and recruitment.
+- Support transfer decision-making using data analytics.
 
 ---
 
-## 📂 Project Structure
+## 🛠 Technologies Used
+
+- SQL
+- Python
+- Pandas
+- NumPy
+- Scikit-Learn
+- Matplotlib
+- Seaborn
+- Power BI
+- GitHub
+
+---
+
+## 🗄 Database Schema
+
+### Fact Table
+- Fact_MatchPerformance
+
+### Dimension Tables
+- Dim_Player
+- Dim_Club
+- Dim_League
+- Dim_Position
+- Dim_Season
+
+---
+
+## 📊 Dataset Features
+
+### Player Information
+- PlayerName
+- Age
+- Height
+- Weight
+- Nationality
+- PreferredFoot
+
+### Financial Metrics
+- MarketValueEUR
+- WageEUR
+
+### Performance Metrics
+- Goals
+- Assists
+- GoalContribution
+- xG
+- xA
+- PassAccuracy
+- KeyPasses
+- TacklesWon
+- Interceptions
+- DefensiveDuelsWon
+- Shots
+- ShotsOnTarget
+- DribblesCompleted
+- ProgressivePasses
+- ProgressiveCarries
+- PerformanceScore
+
+---
+
+## 🗃 SQL Development
+
+SQL was used for:
+
+- Data cleaning and transformation
+- Creating analytical views
+- Joining fact and dimension tables
+- Aggregation and KPI calculations
+
+### SQL Views Created
+- `vw_GoalMarketValueRatio`
+- `vw_TopPerformers`
+- `vw_PlayerDashboard`
+
+---
+
+## 🐍 Python Analysis
+
+Python was used for:
+
+- Exploratory Data Analysis (EDA)
+- Descriptive Statistics
+- Correlation Analysis
+- Outlier Detection
+- Similarity Scoring using Euclidean Distance
+- Feature Engineering
+
+### Visualizations
+- Correlation Heatmap
+- Boxplots
+- Market Value Distribution
+- Age vs Market Value Analysis
+
+---
+
+## 🤖 Machine Learning Model
+
+### Model Used
+- Linear Regression
+
+### Target Variable
+- MarketValueEUR
+
+### Features Used
+- Age
+- Goals
+- Assists
+- xG
+- xA
+- PassAccuracy
+- GoalContribution
+- PerformanceScore
+- Defensive Metrics
+- Progressive Actions
+
+### Model Performance
+
+| Metric | Value |
+|--------|-------|
+| R² Score | 0.262 |
+| Mean Absolute Error (MAE) | €17.72 Million |
+
+---
+
+## 💎 Hidden Gems Identification
+
+Players were classified as **Undervalued** when:
 
 ```text
-Football-Player-Performance-Analytics/
+Predicted Market Value > Actual Market Value
+```
+
+These players represent potential transfer opportunities for ZDIP United.
+
+---
+
+## 📈 Power BI Dashboards
+
+### Page 1 — Executive Overview Dashboard
+- KPI Cards
+- Player Distribution by Position
+- Market Value by League
+- Market Value by Age
+- League Performance Analysis
+
+### Page 2 — Player Performance Analysis
+- Market Value vs Goal Contribution
+- xG vs Goals
+- Top Players by Performance Score
+- Preferred Foot Distribution
+
+### Page 3 — AI Value Predictor
+- Actual vs Predicted Market Value
+- Top Undervalued Players
+- Hidden Gems Analysis
+
+### Page 4 — Scouting Insights Dashboard
+- Position Distribution
+- Geographic Analysis
+- Recruitment Insights
+- Transfer Market Opportunities
+## Dashboard Preview
+
+![Overview Dashboard](<img width="1920" height="1080" alt="Screenshot 2026-07-08 165709" src="https://github.com/user-attachments/assets/94974fda-e09b-46f1-9b36-d18870375c1d" />
+)
+
+![Player Analysis Dashboard](<img width="1920" height="1080" alt="Screenshot 2026-07-08 165717" src="https://github.com/user-attachments/assets/e3f16f61-678e-4c59-892a-e52a8c12c69d" />
+)
+
+![AI Value Predictor Dashboard](<img width="1920" height="1080" alt="Screenshot 2026-07-08 165724" src="https://github.com/user-attachments/assets/d4668acc-84a9-4ddb-8038-2a3cb37e4a31" />
+)
+
+---
+
+## 📁 Repository Structure
+
+```text
+Football-Player-Value-Optimization/
 │
-├── Dataset/
-│   ├── Dim_Date.csv
-│   ├── Dim_League.csv
-│   ├── Dim_Match.csv
-│   ├── Dim_Player.csv
-│   ├── Dim_Team.csv
-│   ├── Fact_MatchPerformance.csv
-│   ├── PlayerPerformance.csv
-│   ├── EfficiencyScore.csv
-│   ├── GoalMarketValueRatio.csv
-│   ├── TopPerformers.csv
-│   └── Predicted_Player_Values.xls
+├── data/
+│   ├── raw/
+│   └── processed/
 │
-├── SQL/
-│   └── SQL Queries.sql
+├── sql/
+│   ├── schema.sql
+│   ├── views.sql
+│   └── queries.sql
 │
-├── Python/
-│   └── Football_Player_Analytics.ipynb
+├── notebooks/
+│   ├── EDA.ipynb
+│   ├── Feature_Engineering.ipynb
+│   ├── Linear_Regression_Model.ipynb
+│   └── Hidden_Gems_Analysis.ipynb
 │
-├── PowerBI/
-│   └── Football_Player_Dashboard.pbix
+├── dashboards/
+│   ├── Football_Analytics.pbix
+│   └── screenshots/
 │
-├── Images/
-│   └── dashboard.png
+├── documentation/
+│   ├── Technical_Documentation.docx
+│   └── Project_Report.pdf
 │
-├── README.md
-└── Technical_Documentation.md
+├── requirements.txt
+└── README.md
 ```
 
 ---
 
-## ⚙️ Project Workflow
+## 🚀 Key Outcomes
 
-1. Import the football player dataset.
-2. Clean and preprocess data using SQL and Python.
-3. Create dimension and fact tables.
-4. Engineer features for Machine Learning.
-5. Train a Linear Regression model.
-6. Predict player market values.
-7. Export prediction results.
-8. Build an interactive Power BI dashboard.
-9. Publish the complete project on GitHub.
+- Developed a complete football scouting analytics pipeline.
+- Identified undervalued players using machine learning.
+- Built interactive dashboards for recruitment analysis.
+- Integrated SQL, Python, Machine Learning, and Power BI into a single solution.
 
 ---
 
-## 📈 Machine Learning Model
+## 🔮 Future Improvements
 
-**Algorithm Used**
-
-* Linear Regression
-
-**Input Features**
-
-* Goals
-* Assists
-* Minutes Played
-* Age
-* Position
-* Other player performance metrics
-
-**Target Variable**
-
-* Market Value
-
-**Evaluation Metrics**
-
-* R² Score
-* RMSE
-* MAE
+- Random Forest and XGBoost models.
+- Real-time football API integration.
+- Injury and contract analysis.
+- Advanced player similarity models.
 
 ---
 
-## 📊 Power BI Dashboard Features
+## 👤 Author
 
-* KPI Cards
-* Scatter Plot (Market Value vs Goal Contributions)
-* Top Performers Bar Chart
-* League Filter
-* Position Filter
-* Interactive Cross-filtering
+**Haritha Nanganuru**
+
+
 
 ---
 
-## 📷 Dashboard Screenshot
+## 📜 License
 
-Add your dashboard screenshot to the **Images** folder and name it:
-
-<img width="1920" height="1080" alt="Screenshot 2026-06-26 195814" src="https://github.com/user-attachments/assets/86cdea1b-aa76-4707-9efd-7f3a2a09892b" />
-
-
-Then GitHub will automatically display it using:
-
-```markdown
-![Power BI Dashboard](Images/dashboard.png)
-```
-<img width="1920" height="1080" alt="Screenshot 2026-06-26 195808" src="https://github.com/user-attachments/assets/9ac0d07a-772f-475c-9177-4da4ca6e181e" />
-
----
-
-## 🚀 Future Improvements
-
-* Improve prediction accuracy using advanced ML models.
-* Connect the dashboard to live football data.
-* Add player comparison features.
-* Deploy the dashboard online.
-* Include additional player performance metrics.
-
----
-
-## 👨‍💻 Author
-
-**Nanganuru Haritha**
-
-Project developed as part of a Data Analytics internship using SQL, Python, Machine Learning, Power BI, and GitHub.
+This project was developed for educational and internship purposes.
