@@ -1,6 +1,6 @@
 # ⚽ Football Player Value & Performance Optimization
 
-## 📌 Project Overview
+##  Project Overview
 
 This project develops a data-driven football scouting and player valuation platform for **ZDIP United**, a mid-tier European football club preparing for the summer transfer window.
 
@@ -8,7 +8,7 @@ The objective is to identify undervalued players ("Hidden Gems"), analyze player
 
 ---
 
-## 🎯 Business Problem
+##  Business Problem
 
 ZDIP United operates with a limited transfer budget and requires a data-driven recruitment strategy to identify high-performing players available below their expected market value.
 
@@ -16,7 +16,7 @@ Traditional scouting methods are expensive and subjective, so this project uses 
 
 ---
 
-## 🎯 Project Objectives
+##  Project Objectives
 
 - Identify undervalued players across European leagues.
 - Analyze player performance metrics and market value relationships.
@@ -104,7 +104,7 @@ SQL was used for:
 
 ---
 
-## 🐍 Python Analysis
+##  Python Analysis
 
 Python was used for:
 
@@ -123,7 +123,7 @@ Python was used for:
 
 ---
 
-## 🤖 Machine Learning Model
+##  Machine Learning Model
 
 ### Model Used
 - Linear Regression
@@ -152,7 +152,7 @@ Python was used for:
 
 ---
 
-## 💎 Hidden Gems Identification
+##  Hidden Gems Identification
 
 Players were classified as **Undervalued** when:
 
@@ -164,7 +164,7 @@ These players represent potential transfer opportunities for ZDIP United.
 
 ---
 
-## 📈 Power BI Dashboards
+##  Power BI Dashboards
 
 ### Page 1 — Executive Overview Dashboard
 - KPI Cards
@@ -239,7 +239,7 @@ Football-Player-Value-Optimization/
 
 ---
 
-## 🚀 Key Outcomes
+## Key Outcomes
 
 - Developed a complete football scouting analytics pipeline.
 - Identified undervalued players using machine learning.
@@ -248,7 +248,7 @@ Football-Player-Value-Optimization/
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - Random Forest and XGBoost models.
 - Real-time football API integration.
@@ -257,7 +257,7 @@ Football-Player-Value-Optimization/
 
 ---
 
-## 👤 Author
+##  Author
 
 **Haritha Nanganuru**
 
@@ -265,6 +265,6 @@ Football-Player-Value-Optimization/
 
 ---
 
-## 📜 License
+##  License
 
 This project was developed for educational and internship purposes.
